@@ -32,7 +32,7 @@ spec:
           image:
             repository: quay.io/hollisc/ibm-db2-sfg:1.0.4
             pullPolicy: IfNotPresent
-          storageClassName: ocs-storagecluster-cephfs
+          storageClassName: ibmc-file-gold
 
           service:
             name: db2-lb
