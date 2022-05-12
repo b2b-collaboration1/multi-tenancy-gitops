@@ -34,7 +34,7 @@ spec:
           image:
             repository: ibmcom/mq
             pullPolicy: IfNotPresent
-          storageClassName: ibmc-file-gold
+          storageClassName: ibmc-block-gold
   syncPolicy:
     automated:
       prune: true
